@@ -64,8 +64,8 @@ def telegram_sol_():
     #print(bot_sms)
 
     ################################################################################
-    TOKEN = "7491789551:AAFVK6V4Z7CnCOBS4PoSroBTu76Hx21LEsE"
-    chat_id = "-1002076312227"
+    TOKEN = ""
+    chat_id = ""
     message = bot_sms
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={chat_id}&text={message}"
     requests.get(url).json()
